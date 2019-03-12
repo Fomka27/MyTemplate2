@@ -1,3 +1,20 @@
-@media(max-width:1000px) {
-    
+@media(max-width:1050px) {
+    #header-bottom {
+        padding: 15px;
+    }
+    #logo {
+        font-size: 30px;
+        margin: 0;
+    }
+    .menu-b ul li a {
+        border: none;
+        padding: 0 10px;
+    }
+    #search {
+        margin: 10px;
+    }
+}
+
+@media(max-width:925px) {
+
 }
