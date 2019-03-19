@@ -52,10 +52,8 @@ button {
     font-size: 13px;
 }
 
-
 #select-list {
     display: flex;
-    flex-direction: row;
     margin: 10%;  
     position: relative;  
 }
@@ -64,13 +62,17 @@ button {
     color: #bef2ff;
 }
 
-.language p {
-    
+#select-list .language .fa-angle-down {
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    color: #ffffff;
 }
 
-#select-list fa-angle-down {
+#select-list .currency .fa-angle-down {
     position: absolute;
-    top: 10%;
+    top: 25%;
+    right: 50%;
     color: #ffffff;
 }
 
@@ -78,16 +80,11 @@ button {
     padding-left: 35px;
 }
 
-.currency p {
-    
-}
-
 #menu-t {
     margin-right: 125px;
 }
 
 #menu-t ul {
-    padding: 0;
     display: flex;
     justify-content: space-between;
 }
@@ -225,6 +222,7 @@ button {
 
 .slider-container {
     display: flex;
+    flex-flow: row;
     position: relative;
 
 }
@@ -261,10 +259,10 @@ button {
     right: 10%;
 }
 
-.slider-container i {
-    position: absolute;
+.slider-container .fa-angle-left, .slider-container .fa-angle-right {
     top: 40%;
     color: #cdcdcd;
+    position: absolute;
 }
 
 .slider-container .fa-angle-left {
@@ -319,7 +317,7 @@ button {
 }
 
 #products-name, #products-name2, #products-name3 {
-    padding: 47px 153px 10px;
+    padding: 5% 10% 2%;
     font-size: 24px;
     font-family: 'Open Sans';
     text-transform: uppercase;
@@ -395,7 +393,7 @@ button {
 
 #sidebar-container {
     flex: 1;
-    margin-top: 45px;
+    margin: 3% 5% 5% 0;
 }
 
 #sidebar-slider, #sidebar-sign {
@@ -505,7 +503,7 @@ button {
     
 }
 
-#f-top .description-c .circul-c, #f-top .description-s .circul-s{
+#f-top .circul-c, #f-top .circul-s{
     background: #ffffff;
     height: 50px;
     width: 50px;
@@ -515,11 +513,11 @@ button {
 
 }
 
-#f-top .description-c .circul-c {
+#f-top .circul-c {
     right: 43.8%;
 }
 
-#f-top .description-s .circul-s {
+#f-top .circul-s {
     left: 13.5%;
 }
 
@@ -546,24 +544,23 @@ footer {
     min-height: 330px;
     margin-top: 0;
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
     justify-content: space-around;
 }
 
 #f-wrap h4 {
     color: #ffffff;
-    margin: 25px 40px;
+    margin: 23px 18px;
     font-size: 20px;
     text-transform: uppercase;
 }
 
 #f-wrap ul li {
-    list-style: none;
     color: #ffffff;
 }
 
 #f-wrap ul li a {
-    text-decoration: none;
     color: #ffffff;
 }
 
